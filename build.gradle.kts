@@ -34,7 +34,7 @@ dependencies {
 	implementation("org.springframework.cloud:spring-cloud-stream-binder-kafka-streams")
 	implementation("org.springframework.kafka:spring-kafka")
 	implementation ("com.github.javafaker:javafaker:1.0.2")
-	implementation ("org.apache.avro:avro:1.10.2")
+	implementation ("org.apache.avro:avro:1.11.0")
 	implementation ("io.confluent:kafka-avro-serializer:6.1.0")
 	compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")
